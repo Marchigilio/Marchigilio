@@ -1,0 +1,207 @@
+$colorPrimario: rgb(202, 138, 55);
+$colorSecundario: antiquewhite;
+$letraPrincipal: Georgia, 'Times New Roman', Times, serif;
+$letraEspecifica: 'Times New Roman', Times, serif; 
+$letraSecundaria: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+$colorBontones: black;
+
+
+#body{
+    background-color: black;
+    margin: 0px 0px 3px 10px;
+    
+}
+.navbar{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 36%, rgba(182,188,196,1) 74%, rgba(255,170,0,0.6815768543745624) 100%);
+    
+    .navbar-brand{
+        color: rgb(202, 138, 55);
+        font-size: 30px;   
+        font-family: $letraEspecifica; 
+    }
+    #navbarScroll{
+        justify-content: center;
+    }
+    .nav-item{
+          color: antiquewhite;
+    }
+    .nav-link{
+        justify-content: space-evenly;
+        color: beige;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .dropdown-menu{
+        background-color: black;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .dropdown-item{
+        color: rgb(202, 138, 55);
+        background-color: black;
+    }
+    .d-flex{
+        .form-control{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            
+        }
+        .btn{
+            background-color: rgb(0, 0, 0);
+            color: rgb(202, 138, 55);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+        }
+        
+    }
+}
+
+.container{
+    justify-content: center;
+    
+    h1{
+        font-size: 130px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(202, 138, 55);
+        margin-top: 30px;
+    }
+    h2{
+        color: grey;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;     
+          
+    }
+    h3{
+        color: aliceblue;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 15px;
+    }
+    p{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: rgb(150, 150, 150);
+    }
+}
+
+/*cards*/
+.row{
+    margin-top: 30px;
+    border: 0;
+    margin-bottom: 30px;
+    .card-group{
+        color: rgb(129, 129, 129);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 12px;
+        background-color: rgb(30, 30, 30);
+        h5{
+            font-size: 22px;
+        }
+        p{
+            color: rgb(255, 255, 255);
+            font-size: 14px;
+        }
+        .btn{
+            background-color:  rgb(202, 138, 55);            
+            color: black;
+            .btn-outline-dark{
+                background-color: black;
+                color: white;
+            }
+        }
+    }
+}
+
+/*footer*/
+.container-fluid{
+    margin-top: 10px 0px 0px 3px;
+    width: 100%;
+}
+
+
+/*pag negro*/
+
+.card-body{
+    background: linear-gradient(0deg, rgba(195,195,195,0.7969924812030076) 0%, rgba(0,0,0,1) 100%);
+    
+}
+
+
+
+$breakpoints: (
+    sm:540px,
+    md:768px,
+    lg:1024px
+);
+
+@mixin devices ($breakpoint) { 
+  
+    @if $breakpoint == mobile {
+        @media only screen and (max-width: 576px) {
+          @content;
+        }
+  }
+
+    @if $breakpoint == tablet {    
+    @media only screen and (max-width: 768px) {
+      @content;
+    }
+  }
+ 
+ 
+  @if $breakpoint == desktop {
+    @media only screen and (max-width: 992px) {
+      @content;
+    }
+  }
+}
+
+.container{
+    
+    @include devices (mobile){
+        
+        background: linear-gradient(0deg, rgba(195,195,195,0.7969924812030076) 8%, rgba(0,0,0,0.8345864661654135) 68%);
+       .navbar{
+        background: radial-gradient(circle, rgba(215,158,37,0.7240625) 38%, rgba(31,31,31,0.8940625) 80%);
+       }
+       .navbar-brand{
+           color: rgb(0, 0, 0);
+       }
+        h1{
+            color: rgb(80, 80, 80);
+        }   
+        h2{
+            color: rgb(84, 84, 84);
+        }
+        h3{
+            color:rgb(202, 154, 43);
+        }
+        p{
+            color: rgb(144, 144, 144);
+        }
+    }
+
+}
+
+.container{
+    
+    @include devices (tablet){
+        
+        background-color: azure;
+       .navbar{
+        background: radial-gradient(circle, rgba(215,158,37,0.7240625) 38%, rgba(31,31,31,0.8940625) 80%);
+       }
+       .navbar-brand{
+           color: aqua;
+       }
+        h1{
+            color: rgb(85, 20, 20);
+        }   
+        h2{
+            color: rgb(84, 84, 84);
+        }
+        h3{
+            color:rgb(219, 87, 26);
+        }
+        p{
+            color: rgb(126, 16, 16);
+        }
+    }
+
+}

@@ -1,0 +1,180 @@
+#body {
+  background-color: black;
+  margin: 0px 0px 3px 10px;
+}
+
+.navbar {
+  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(36%, black), color-stop(74%, #b6bcc4), to(rgba(255, 170, 0, 0.681577)));
+  background: linear-gradient(90deg, black 0%, black 36%, #b6bcc4 74%, rgba(255, 170, 0, 0.681577) 100%);
+}
+
+.navbar .navbar-brand {
+  color: #ca8a37;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.navbar #navbarScroll {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar .nav-item {
+  color: antiquewhite;
+}
+
+.navbar .nav-link {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: beige;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar .dropdown-menu {
+  background-color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar .dropdown-item {
+  color: #ca8a37;
+  background-color: black;
+}
+
+.navbar .d-flex .form-control {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.navbar .d-flex .btn {
+  background-color: black;
+  color: #ca8a37;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container h1 {
+  font-size: 130px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ca8a37;
+  margin-top: 30px;
+}
+
+.container h2 {
+  color: grey;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+
+.container h3 {
+  color: aliceblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 15px;
+}
+
+.container p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #969696;
+}
+
+/*cards*/
+.row {
+  margin-top: 30px;
+  border: 0;
+  margin-bottom: 30px;
+}
+
+.row .card-group {
+  color: #818181;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 12px;
+  background-color: #1e1e1e;
+}
+
+.row .card-group h5 {
+  font-size: 22px;
+}
+
+.row .card-group p {
+  color: white;
+  font-size: 14px;
+}
+
+.row .card-group .btn {
+  background-color: #ca8a37;
+  color: black;
+}
+
+.row .card-group .btn .btn-outline-dark {
+  background-color: black;
+  color: white;
+}
+
+/*footer*/
+.container-fluid {
+  margin-top: 10px 0px 0px 3px;
+  width: 100%;
+}
+
+/*pag negro*/
+.card-body {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(195, 195, 195, 0.796992)), to(black));
+  background: linear-gradient(0deg, rgba(195, 195, 195, 0.796992) 0%, black 100%);
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(8%, rgba(195, 195, 195, 0.796992)), color-stop(68%, rgba(0, 0, 0, 0.834586)));
+    background: linear-gradient(0deg, rgba(195, 195, 195, 0.796992) 8%, rgba(0, 0, 0, 0.834586) 68%);
+  }
+  .container .navbar {
+    background: radial-gradient(circle, rgba(215, 158, 37, 0.724063) 38%, rgba(31, 31, 31, 0.894062) 80%);
+  }
+  .container .navbar-brand {
+    color: black;
+  }
+  .container h1 {
+    color: #505050;
+  }
+  .container h2 {
+    color: #545454;
+  }
+  .container h3 {
+    color: #ca9a2b;
+  }
+  .container p {
+    color: #909090;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    background-color: azure;
+  }
+  .container .navbar {
+    background: radial-gradient(circle, rgba(215, 158, 37, 0.724063) 38%, rgba(31, 31, 31, 0.894062) 80%);
+  }
+  .container .navbar-brand {
+    color: aqua;
+  }
+  .container h1 {
+    color: #551414;
+  }
+  .container h2 {
+    color: #545454;
+  }
+  .container h3 {
+    color: #db571a;
+  }
+  .container p {
+    color: #7e1010;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,417 @@
+#body {
+  margin: 0px 0px 3px 10px;
+}
+
+.navbar {
+  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(36%, black), color-stop(74%, #b6bcc4), to(rgba(255, 170, 0, 0.681577)));
+  background: linear-gradient(90deg, black 0%, black 36%, #b6bcc4 74%, rgba(255, 170, 0, 0.681577) 100%);
+}
+
+.navbar .navbar-brand {
+  color: #ca8a37;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.navbar #navbarScroll {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar .nav-item {
+  color: antiquewhite;
+}
+
+.navbar .nav-link {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: beige;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar .dropdown-menu {
+  background-color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar .dropdown-item {
+  color: #ca8a37;
+  background-color: black;
+}
+
+.navbar .d-flex .form-control {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.navbar .d-flex .btn {
+  background-color: black;
+  color: #ca8a37;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-body p {
+  color: aqua;
+}
+
+.container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container h1 {
+  font-size: 130px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ca8a37;
+  margin-top: 30px;
+}
+
+.container h2 {
+  color: grey;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+
+.container h3 {
+  color: aliceblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 15px;
+}
+
+.container p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #969696;
+}
+
+/*cards*/
+.row {
+  margin-top: 30px;
+  border: 0;
+  margin-bottom: 30px;
+}
+
+.row .card-group {
+  color: #818181;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 12px;
+  background-color: #1e1e1e;
+}
+
+.row .card-group h5 {
+  font-size: 22px;
+}
+
+.row .card-group p {
+  color: white;
+  font-size: 14px;
+  color: dimgray;
+}
+
+.row .card-group .btn {
+  background-color: #ca8a37;
+  color: black;
+}
+
+.row .card-group .btn .btn-outline-dark {
+  background-color: black;
+  color: white;
+}
+
+/*pag negro*/
+.encabezado {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.encabezado h1 {
+  font-size: 60px;
+}
+
+.btn-toolbar {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.btn-group {
+  margin: 10px 45%;
+}
+
+.btn-group .btn {
+  color: black;
+  background-color: #eaeaea;
+  border: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.containerCards .card-body {
+  background-color: #eaeaea;
+}
+
+.containerCards .card-body h5, .containerCards .card-body p {
+  color: black;
+}
+
+/*pag furniture*/
+.hstack {
+  height: 100%;
+  width: 100%;
+}
+
+.textoPrincipal h3 {
+  color: gray;
+}
+
+.card {
+  font-size: 15px;
+}
+
+.card-title {
+  font-size: 22px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+  color: black;
+}
+
+.textoIntermedio {
+  margin-top: 60px;
+}
+
+/*pag asesoria*/
+.container-sm {
+  margin-top: 55px;
+}
+
+.container-sm h1 {
+  margin-bottom: 15px;
+}
+
+.card-group .card {
+  background-color: white;
+  margin-top: 10px;
+}
+
+.card-group .rounded {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.card-group .card-body {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/*pag contacto*/
+.crearCuenta {
+  margin: 10px 0 0 10px;
+}
+
+.row {
+  margin: 10px 10px 10px 10px;
+}
+
+.card-body {
+  background-color: white;
+}
+
+.card-body .card-title {
+  color: black;
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-body .card-text {
+  color: black;
+  font-size: 14px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-body .btn {
+  color: black;
+  background-color: antiquewhite;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.registro {
+  font-size: 30px;
+  margin-top: 60px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedor-contacto {
+  background-color: white;
+}
+
+.contenedor-contacto form {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: antiquewhite;
+}
+
+.contenedor-contacto form .form-control {
+  font-size: 12px;
+}
+
+.contenedor-contacto form .btn {
+  font-size: 12px;
+}
+
+.contenedor-contacto form #validationCustom04 {
+  font-size: 12px;
+}
+
+.footer {
+  margin: 100px 30px 30px 0px;
+}
+
+.table {
+  width: 100%;
+  margin-left: 30px;
+  color: #c9972d;
+  font-size: 17px;
+}
+
+.tBody {
+  margin-top: 50px 10px 10px 0px;
+}
+
+.tBody tr {
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.tBody td a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footerIndex {
+  margin: 100px 30px 30px 0px;
+}
+
+.table {
+  width: 100%;
+  margin-left: 30px;
+  color: #fdb315;
+  font-size: 17px;
+}
+
+.tHead {
+  color: #cda41a;
+}
+
+.tBody {
+  margin-top: 50px 10px 10px 0px;
+}
+
+.tBody tr {
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.tBody td a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    /* background: linear-gradient(0deg, rgba(195,195,195,0.7969924812030076) 8%, rgba(0,0,0,0.8345864661654135) 68%);*/
+  }
+  .container .navbar {
+    background: radial-gradient(circle, rgba(215, 158, 37, 0.724063) 38%, rgba(31, 31, 31, 0.894062) 80%);
+  }
+  .container .navbar-brand {
+    color: black;
+  }
+  .container h1 {
+    color: #505050;
+  }
+  .container h2 {
+    color: #545454;
+  }
+  .container h3 {
+    color: #ca9a2b;
+  }
+  .container p {
+    color: #909090;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .container #body {
+    background-color: white;
+  }
+  .container .navbar {
+    background: radial-gradient(circle, rgba(215, 158, 37, 0.724063) 38%, rgba(31, 31, 31, 0.894062) 80%);
+  }
+  .container .navbar-brand {
+    color: #cdcdcd;
+  }
+  .container h1 {
+    color: #551414;
+  }
+  .container h2 {
+    color: #545454;
+  }
+  .container h3 {
+    color: #db571a;
+  }
+  .container p {
+    color: #7e1010;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .container img {
+    max-width: 50%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .card-group .card img {
+    max-width: 50%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card-group .card img {
+    max-width: 50%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .card-group .card img {
+    max-width: 50%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    min-width: 100%;
+    height: auto;
+  }
+  .container .hstack .card img {
+    min-width: 100%;
+    height: auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
